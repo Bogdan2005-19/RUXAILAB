@@ -24,7 +24,7 @@ jobs:
           node-version: '24.12.0'
 
       - name: Install dependencies
-        run: npm
+        run: npm ci
 
       - name: Build for Production
         run: npm run build-prod
